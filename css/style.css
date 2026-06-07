@@ -1,0 +1,73 @@
+/* Tipografía base seria */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+    background-color: #ffffff;
+}
+
+/* Títulos solemnes con tipografía con Serif */
+h1,
+h2,
+h3,
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Espaciados tipográficos premium */
+.tracking-wider {
+    letter-spacing: 2px;
+}
+
+.tracking-widest {
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+}
+
+/* Estilo del botón del acordeón cuando está abierto */
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa !important;
+    color: #ffc107 !important;
+    /* Color dorado */
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    border-color: rgba(0, 0, 0, .125);
+}
+
+/* Efecto elegante de borde dorado al pasar el ratón por las tarjetas */
+.card {
+    transition: all 0.3s ease-on-out;
+}
+
+.card:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08) !important;
+    border-top: 3px solid #ffc107 !important;
+}
+
+/* Correcciones estéticas UX para formularios corporativos */
+.form-control,
+.form-select {
+    border: 1px solid #e2e8f0 !important;
+    color: #2c3e50 !important;
+}
+
+.form-control::placeholder {
+    color: #a0aec0 !important;
+    font-size: 0.85rem;
+}
+
+/* Efecto de foco sobrio (Reemplaza el resplandor azul por defecto de Bootstrap) */
+.form-control:focus,
+.form-select:focus {
+    background-color: #ffffff !important;
+    border-color: #ffc107 !important;
+    /* Borde dorado al hacer click */
+    box-shadow: none !important;
+}
+
+/* Forzar que el iframe del mapa conserve esquinas completamente rectas */
+.ratio iframe {
+    border-radius: 0px !important;
+}
